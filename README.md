@@ -2,7 +2,7 @@
 
 This repository contains labs for the Configuration API Hands-On Bootcamp March  2019.
 
-## TOC
+## Contents
 
 [Preparing our Environments](/labs/preparation)
 
