@@ -2,13 +2,13 @@
 
 In this lab, we will create a 4 applications using the swagerised application configuration API.
 
-## Stepy-by-step Guide - Access API Explorer
+## Step-by-step Guide - Access API Explorer
 
 In the Dynatrace dashboard, navigate to the Configuration API: **Settings -> Integration -> Dynatrace API > Dynatrace API Explorer**
 
 Select Configuration API from the top right drop down menu.
 
-## Stepy-by-step Guide - Create the Application
+## Step-by-step Guide - Create the Application
 
 1. There select **Web Application configuration**
 
@@ -268,7 +268,7 @@ Execute again and record the application id returned.
 ![Web applications complete](/assets/web-applications-complete.png)
 
 
-## Stepy-by-step Guide - Create the Application Detection Rules
+## Step-by-step Guide - Create the Application Detection Rules
 
 Now we need to create the application detection rules.
 
