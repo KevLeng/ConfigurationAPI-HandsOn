@@ -134,9 +134,9 @@ Paste above JSON into Example Value field
 
 ![Web application configuration success](/assets/web-application-config-success.png)
 
-Success, production application has been created. Now lets create the application for staging.
+Success, production application has been created.
 
-6.  Now lets create the application for staging. Modify the application name. In the Example Value field, change the **name** to **easyTravel Staging (by API)**
+6.  Now lets create the application for staging: Modify the application name. In the Example Value field, change the **name** to **easyTravel Staging (by API)**
 
 ```json
   "name": "easyTravel Staging (by API)",
