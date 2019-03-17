@@ -253,9 +253,9 @@ Remember to record the returned application id.
   }
 }
 ```
- Remeber to record the returned application id.
+ Remember to record the returned application id.
 
-8. One more, In the Example Value field, change the **name** to **easyTravel B2B Staging (by API)**
+8. Last one: In the Example Value field, change the **name** to **easyTravel B2B Staging (by API)**
 
 ```json
   "name": "easyTravel B2B Staging (by API)",
