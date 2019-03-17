@@ -78,6 +78,7 @@ You will find the IP address in 2 locations.
 
 Copy the resulting JSON into the Example Value field
 
+```json
 {
   "name": "easyTravel Production - Multi Step",
   "frequencyMin": 5,
@@ -105,6 +106,7 @@ Copy the resulting JSON into the Example Value field
   "tags": [],
   "managementZones": []
 }
+```
 
 5. Select **Execute**, to create your multi step browser test. 
 
