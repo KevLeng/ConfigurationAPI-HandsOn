@@ -282,17 +282,17 @@ Now we need to create the application detection rules.
 
 4. Copy the following application detection JSON into the Example Value field
 
-Replace **YOUR-Application-ID** with your **application id** (you recorded earlier) for easyTravel Production (by API)
+Replace **YOUR-Application-ID** with your **application id** (you recorded earlier) for **easyTravel Production (by API)**
 
 Replace **YOUR-IPAddress** with the **internal ip address** for your **Production** server
 
 ```json
 {
-  "applicationIdentifier": “YOUR-Application-ID",
+  "applicationIdentifier": "YOUR-Application-ID",
   "filterConfig": {
-    "pattern": “YOUR-IPAddress:8079,
-    "applicationMatchType": “CONTAINS",
-    "applicationMatchTarget": “URL"
+    "pattern": "YOUR-IPAddress:8079",
+    "applicationMatchType": "CONTAINS",
+    "applicationMatchTarget": "URL"
   }
 }
 ```
@@ -302,19 +302,24 @@ Now replace the internal IP address with your external IP address.
 
 Select **Execute***
 
-5. Repeat the above step using the application id and ip addresses for easyTravel Staging (by API)
+Success, rules for the **easyTravel Production (by API)** are done. View them in the Dynatrace UI.
+
+5. Now lets create the detection rules for easyTravel **Staging** (by API) application. Repeat the above step using the application id and internal / external ip addresses for **easyTravel Staging (by API)**
+
+Once you have submitted the rules, lets move on to the the easyTravel B2B applications. 
 
 6. Use the following JSON to create the detection rules for your easyTravel B2B Production (by API) and easyTravel B2B Staging (by API) applications.
 
+Remember to use your production / staging ip addresses.
+
 ```json
 {
-  "applicationIdentifier": “YOUR-Application-ID",
+  "applicationIdentifier": "YOUR-Application-ID",
   "filterConfig": {
-    "pattern": “YOUR-IPAddress:8999,
-    "applicationMatchType": “CONTAINS",
-    "applicationMatchTarget": “URL"
+    "pattern": "YOUR-IPAddress:8999",
+    "applicationMatchType": "CONTAINS",
+    "applicationMatchTarget": "URL"
   }
 }
 ```
-
 :arrow_up: [Back to TOC](/README.md)
