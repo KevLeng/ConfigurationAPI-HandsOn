@@ -1,12 +1,16 @@
 # Lab 2: Creating Sythetic Transactions using API
 
-In this lab, we will create a 2 synthetic trasactions.
+In this lab, we will create a 2 synthetic trasactions - a basic browser test and a multi-step transaction. 
 
-## Stepy-by-step Guide
 
-In the Dynatrace dashboard, navigate to the Configuration API's  **?? -> ??**
+## Step-by-step Guide - Access API Explorer
 
-## Stepy-by-step Guide - Create a Simple Sythetic Browser Test
+In the Dynatrace dashboard, navigate to the Configuration API: **Settings -> Integration -> Dynatrace API > Dynatrace API Explorer**
+
+Select Environment API from the top right drop down menu.
+
+
+## Step-by-step Guide - Create a Simple Sythetic Browser Test
 
 1. There select **Synthetic** 
 
@@ -56,7 +60,7 @@ Copy the resulting JSON into the Example Value field
 
 5. Select **Execute**, to create your browser test.
 
-## Stepy-by-step Guide - Create a Simple Sythetic Browser Test
+## Step-by-step Guide - Create a Simple Sythetic Browser Test
 
 
 6. The following json will create a multi step browser from Sydney and Singapore.
