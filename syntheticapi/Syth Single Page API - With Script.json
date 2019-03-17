@@ -1,0 +1,27 @@
+{
+  "name": "easyTravel Production - Homepage",
+  "frequencyMin": 5,
+  "enabled": true,
+  "type": "BROWSER",
+  "script": "{\r\n    \"configuration\": {\r\n        \"device\": {\r\n            \"orientation\": \"landscape\",\r\n            \"deviceName\": \"Desktop\"\r\n        }\r\n    },\r\n    \"type\": \"availability\",\r\n    \"version\": \"1.0\",\r\n    \"events\": [{\r\n        \"type\": \"navigate\",\r\n        \"wait\": {\r\n            \"waitFor\": \"page_complete\"\r\n        },\r\n        \"description\": \"Loading of \\\"http:\/\/13.210.14.153:8079\/\\\"\",\r\n        \"url\": \"http:\/\/13.210.14.153:8079\/\"\r\n    }]\r\n}",
+  "locations": [
+    "GEOLOCATION-191EF52906549983",
+    "GEOLOCATION-2FD31C834DE4D601"
+  ],
+  "anomalyDetection": {
+    "outageHandling": {
+      "globalOutage": true,
+      "localOutage": false,
+      "localOutagePolicy": {
+        "affectedLocations": 1,
+        "consecutiveRuns": 3
+      }
+    },
+    "loadingTimeThresholds": {
+      "enabled": false,
+      "thresholds": []
+    }
+  },
+  "tags": [],
+  "managementZones": []
+}

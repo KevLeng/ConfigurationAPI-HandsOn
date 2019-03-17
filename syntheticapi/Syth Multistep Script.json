@@ -1,0 +1,237 @@
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [{
+        "type": "navigate",
+        "wait": {
+            "waitFor": "page_complete"
+        },
+        "description": "Loading of \"http://13.210.14.153:8079/\"",
+        "url": "http://13.210.14.153:8079/"
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "network"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "#loginForm\\:loginLink"
+            }, {
+                "type": "css",
+                "value": "a:contains(\"Login\")"
+            }, {
+                "type": "css",
+                "value": "div:contains(\"Login\"):eq(4)"
+            }, {
+                "type": "css",
+                "value": ".iceCmdLnk:eq(0)"
+            }, {
+                "type": "css",
+                "value": "#loginForm div:nth-child(6) a"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"loginForm:loginLink\""
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "network"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "#loginForm\\:j_idt58"
+            }, {
+                "type": "css",
+                "value": "input[type=\"image\"][src$=\"img/privacypolicy_lock.png\"][name=\"loginForm:j_idt58\"]"
+            }, {
+                "type": "css",
+                "value": ".iceCmdBtn:eq(0)"
+            }, {
+                "type": "css",
+                "value": "#loginForm\\:j_idt51 input:nth-child(7)"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"loginForm:j_idt58\""
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "network"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "#loginForm\\:j_idt63\\:2\\:j_idt64"
+            }, {
+                "type": "css",
+                "value": "a:contains(\"clarettatak\"):eq(1)"
+            }, {
+                "type": "css",
+                "value": "div:contains(\"bonaventurahar\"):eq(7)"
+            }, {
+                "type": "css",
+                "value": ".iceCmdLnk:eq(23)"
+            }, {
+                "type": "css",
+                "value": "#loginForm\\:j_idt63 a:nth-child(5)"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"loginForm:j_idt63:2:j_idt64\""
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "page_complete"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "a:contains(\"Book Now\"):eq(1)"
+            }, {
+                "type": "css",
+                "value": "div:contains(\"If you wish to stay in a hotel that has friendly staff and an inviting ambience that reminds you of home, then head to the Grand Hotel.\"):eq(4)"
+            }, {
+                "type": "css",
+                "value": ".commonButton:eq(5)"
+            }, {
+                "type": "css",
+                "value": "#recommendation div div:nth-child(2) div:nth-child(2) a:nth-child(5)"
+            }, {
+                "type": "css",
+                "value": "#recommendation div.icePnlPos div.icePnlGrp div.icePnlGrp a.commonButton:eq(0)"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"Book Now\""
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "page_complete"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "#iceform\\:bookReviewNext"
+            }, {
+                "type": "css",
+                "value": "a:contains(\"Next\")"
+            }, {
+                "type": "css",
+                "value": "div:contains(\"To look for a different journey please press the\"):eq(4)"
+            }, {
+                "type": "css",
+                "value": ".commonButton:eq(5)"
+            }, {
+                "type": "css",
+                "value": "#iceform div:nth-child(6) a:nth-child(7)"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"iceform:bookReviewNext\""
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "network"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "#iceform\\:j_idt118"
+            }, {
+                "type": "css",
+                "value": "input[type=\"image\"][src$=\"img/privacypolicy_lock.png\"][name=\"iceform:j_idt118\"]"
+            }, {
+                "type": "css",
+                "value": ".iceCmdBtn:eq(3)"
+            }, {
+                "type": "css",
+                "value": "#iceform div:nth-child(6) div:nth-child(5) input"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"iceform:j_idt118\""
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "page_complete"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "#iceform\\:bookPaymentNext"
+            }, {
+                "type": "css",
+                "value": "input[type=\"submit\"][name=\"iceform:bookPaymentNext\"]"
+            }, {
+                "type": "dom",
+                "value": "document.forms[1][10]"
+            }, {
+                "type": "css",
+                "value": ".iceCmdBtn:eq(4)"
+            }, {
+                "type": "css",
+                "value": "#iceform div:nth-child(6) input:nth-child(7)"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"Next\""
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "page_complete"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "#iceform\\:bookFinishFinish"
+            }, {
+                "type": "css",
+                "value": "input[type=\"submit\"][name=\"iceform:bookFinishFinish\"]"
+            }, {
+                "type": "dom",
+                "value": "document.forms[1][4]"
+            }, {
+                "type": "css",
+                "value": ".iceCmdBtn:eq(3)"
+            }, {
+                "type": "css",
+                "value": "#iceform div:nth-child(6) input:nth-child(6)"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"Finish\""
+    }, {
+        "type": "click",
+        "wait": {
+            "waitFor": "page_complete"
+        },
+        "target": {
+            "locators": [{
+                "type": "css",
+                "value": "#loginForm\\:logoutLink"
+            }, {
+                "type": "css",
+                "value": "a:contains(\"Gold status!\n\t\tLogout\")"
+            }, {
+                "type": "css",
+                "value": "div:contains(\"Gold status!\"):eq(4)"
+            }, {
+                "type": "css",
+                "value": ".iceOutLnk:eq(1)"
+            }, {
+                "type": "css",
+                "value": "#loginForm div:nth-child(7) a"
+            }]
+        },
+        "button": 0,
+        "description": "click on \"loginForm:logoutLink\""
+    }]
+}
