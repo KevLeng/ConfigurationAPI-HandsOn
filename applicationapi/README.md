@@ -122,19 +122,26 @@ In the Dynatrace dashboard, navigate to the Configuration API's  **?? -> ??**
   }
 }
 ```
+
+Paste above JSON into Example Value field
+
 ![Web application configuration example value](/assets/web-application-config-examplevalue.png)
 
 5. Select **Execute**, record the returned application id as you will need it later in this lab.
 
 ![Web application configuration success](/assets/web-application-config-success.png)
 
-6. In the Example Value field, change the **name** to **easyTravel Staging (by API)**
+Success, production application has been created. Now lets create the application for staging.
+
+6.  Now lets create the application for staging. Modify the application name. In the Example Value field, change the **name** to **easyTravel Staging (by API)**
 
 ```json
   "name": "easyTravel Staging (by API)",
 ```
 
 Execute again and record the application id's returned.
+
+Success, staging application has been created.
 
 7. Now lets create the B2B applications, use the following JSON. Copy/paste into the example value field and select **execute**
 
@@ -243,14 +250,15 @@ Remember to record the returned application id.
   }
 }
 ```
+ Remeber to record the returned application id.
 
-8. In the Example Value field, change the **name** to **easyTravel B2B Staging (by API)**
+8. One more, In the Example Value field, change the **name** to **easyTravel B2B Staging (by API)**
 
 ```json
   "name": "easyTravel B2B Staging (by API)",
 ```
 
-Execute again and record the application id's returned.
+Execute again and record the application id returned.
 
 9. Now you should have 4 applications, check in Dynatrace to confirm
 
