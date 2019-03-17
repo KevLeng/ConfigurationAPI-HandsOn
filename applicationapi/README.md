@@ -17,7 +17,7 @@ In the Dynatrace dashboard, navigate to the Configuration API's  **?? -> ??**
 
 4. Copy the following application configuration JSON into the Example Value field
 
-**Application Configuration JSON***
+**Application Configuration JSON**
 
 ```json
 {
