@@ -4,7 +4,7 @@ In this lab, we will create a 4 applications using the swagerised application co
 
 ## Stepy-by-step Guide - Access API Explorer
 
-In the Dynatrace dashboard, navigate to the Configuration API's  **Settings -> Integration -> Dynatrace API > Dynatrace API Explorer**
+In the Dynatrace dashboard, navigate to the Configuration API: **Settings -> Integration -> Dynatrace API > Dynatrace API Explorer**
 
 Select Configuration API from the top right drop down menu.
 
