@@ -10,7 +10,7 @@ Select Configuration API from the top right drop down menu.
 
 ## Step-by-step Guide - Create the Application
 
-1. There select **Web Application configuration**
+1. In the API list select **Web Application configuration**
 
 2. Select **POST /applications/web**
 
