@@ -1,14 +1,16 @@
-# Lab 2: Creating a Dashboard using API
+# Lab 3: Creating a Dashboard using API
 
 In this lab, we will create a dashsboard using the Dashboard API.
 
-## Stepy-by-step Guide
+## Step-by-step Guide - Access API Explorer
 
-In the Dynatrace dashboard, navigate to the Configuration API's  **?? -> ??**
+In the Dynatrace dashboard, navigate to the Configuration API: **Settings -> Integration -> Dynatrace API > Dynatrace API Explorer**
 
-## Stepy-by-step Guide - Create a Simple Sythetic Browser Test
+Select Environment API from the top right drop down menu.
 
-1. There select **Dashboards** 
+## Step-by-step Guide - Create Dashboard using API
+
+1. In the API list select **Dashboards** 
 
 2. Select **POST /dashboards**
 
@@ -372,5 +374,20 @@ In the Dynatrace dashboard, navigate to the Configuration API's  **?? -> ??**
 ```
 
 5. Select **Execute**, to create your browser test.
+
+If you used the same names used throughout these labs then the above dashboard should display correctly. If you used other names, then you will need to change the ids used in the above JSON. The ids used in the above JSON are:
+
+**Application Id**
+Find: APPLICATION-B015199D5B489C02 
+Replace: with your application id of “easyTravel Production”
+
+**Basic Browser Test**
+Find: SYNTHETIC_TEST-7C8DA81C3D924F91
+Replace: with your synthetic id of your “easyTravel Homepage Browser Check”
+
+**Multi Step Browser Test**
+Find: SYNTHETIC_TEST-7B366FE3C49E44B0
+Replace: with your synthetic id of your “easyTravel Multi Step Browser Check”
+
 
 :arrow_up: [Back to TOC](/README.md)
