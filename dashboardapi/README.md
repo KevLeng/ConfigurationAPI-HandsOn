@@ -378,10 +378,12 @@ Select Environment API from the top right drop down menu.
 If you used the same names used throughout these labs then the above dashboard should display correctly. If you used other names, then you will need to change the ids used in the above JSON. The ids used in the above JSON are:
 
 **Application Id**
-Find: APPLICATION-B015199D5B489C02 
+
+Find: APPLICATION-B015199D5B489C02
 Replace: with your application id of “easyTravel Production”
 
 **Basic Browser Test**
+
 Find: SYNTHETIC_TEST-7C8DA81C3D924F91
 Replace: with your synthetic id of your “easyTravel Homepage Browser Check”
 
