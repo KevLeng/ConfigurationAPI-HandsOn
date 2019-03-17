@@ -380,15 +380,19 @@ If you used the same names used throughout these labs then the above dashboard s
 **Application Id**
 
 Find: APPLICATION-B015199D5B489C02
+
 Replace: with your application id of “easyTravel Production”
 
 **Basic Browser Test**
 
 Find: SYNTHETIC_TEST-7C8DA81C3D924F91
+
 Replace: with your synthetic id of your “easyTravel Homepage Browser Check”
 
 **Multi Step Browser Test**
+
 Find: SYNTHETIC_TEST-7B366FE3C49E44B0
+
 Replace: with your synthetic id of your “easyTravel Multi Step Browser Check”
 
 
