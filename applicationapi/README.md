@@ -296,6 +296,11 @@ Replace **YOUR-IPAddress** with the **internal ip address** for your **Productio
   }
 }
 ```
+
+The following image is an example only:
+
+![Application detection rule example](/assets/detectionrule-example.PNG)
+
 Select **Execute***
 
 Now replace the internal IP address with your external IP address.
