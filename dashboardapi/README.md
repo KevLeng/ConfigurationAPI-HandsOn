@@ -6,7 +6,7 @@ In this lab, we will create a dashsboard using the Dashboard API.
 
 In the Dynatrace dashboard, navigate to the Configuration API: **Settings -> Integration -> Dynatrace API > Dynatrace API Explorer**
 
-Select Environment API from the top right drop down menu.
+Select **Configuration API** from the top right drop down menu.
 
 ## Step-by-step Guide - Create Dashboard using API
 
@@ -22,13 +22,6 @@ Select Environment API from the top right drop down menu.
 
 ```json
 {
-  "metadata": {
-    "clusterVersion": "1.162.140.20190225-132002",
-    "configurationVersions": [
-      2
-    ]
-  },
-  "id": "cd3dbb72-bd6b-4d3a-966b-ca07741b669b",
   "dashboardMetadata": {
     "name": "Executive Overview",
     "owner": "admin",
