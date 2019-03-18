@@ -4,8 +4,6 @@ This repository contains labs for the Configuration API Hands-On Bootcamp March 
 
 ## Contents
 
-[Preparing our Environments](/labs/preparation)
-
 [**Lab 1:** Create Applications using Application API](/applicationapi)
 
 [**Lab 2:** Create Synthetic Browser Tests using Synthetic API](/syntheticapi)
