@@ -23,7 +23,7 @@ Select **Configuration API** from the top right drop down menu.
 ```json
 {
   "dashboardMetadata": {
-    "name": "Executive Overview",
+    "name": "Executive Overview 2",
     "owner": "admin",
     "timeframe": "l_2_HOURS",
     "managementZone": null
@@ -298,7 +298,7 @@ Select **Configuration API** from the top right drop down menu.
       "useComparisionTimeframe": false,
       "managementZone": null,
       "assignedEntities": [
-        "SYNTHETIC_TEST-7C8DA81C3D924F91"
+        "SYNTHETIC_TEST-31F31B15F5D64207"
       ],
       "excludeMaintenanceWindows": false
     },
@@ -315,7 +315,7 @@ Select **Configuration API** from the top right drop down menu.
       "useComparisionTimeframe": false,
       "managementZone": null,
       "assignedEntities": [
-        "SYNTHETIC_TEST-7B366FE3C49E44B0"
+        "SYNTHETIC_TEST-37766FC7A6ED49FA"
       ],
       "excludeMaintenanceWindows": false
     },
@@ -374,17 +374,17 @@ If you used the same names used throughout these labs then the above dashboard s
 
 Find: APPLICATION-B015199D5B489C02
 
-Replace: with your application id of “easyTravel Production”
+Replace: with your application id of “easyTravel Production (by API)”
 
 **Basic Browser Test**
 
-Find: SYNTHETIC_TEST-7C8DA81C3D924F91
+Find: SYNTHETIC_TEST-31F31B15F5D64207
 
 Replace: with your synthetic id of your “easyTravel Homepage Browser Check”
 
 **Multi Step Browser Test**
 
-Find: SYNTHETIC_TEST-7B366FE3C49E44B0
+Find: SYNTHETIC_TEST-37766FC7A6ED49FA
 
 Replace: with your synthetic id of your “easyTravel Multi Step Browser Check”
 
