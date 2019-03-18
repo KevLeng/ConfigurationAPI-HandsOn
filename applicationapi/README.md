@@ -301,11 +301,11 @@ The following image is an example only:
 
 ![Application detection rule example](/assets/detectionrule-example.PNG)
 
-Select **Execute***
+Select **Execute**
 
-Now replace the internal IP address with your external IP address.
+Now replace the **internal IP address** with your **external IP address**.
 
-Select **Execute***
+Select **Execute**
 
 Success, rules for the **easyTravel Production (by API)** are done. View them in the Dynatrace UI.
 
@@ -313,7 +313,7 @@ Success, rules for the **easyTravel Production (by API)** are done. View them in
 
 Once you have submitted the rules, lets move on to the the easyTravel B2B applications. 
 
-6. Use the following JSON to create the detection rules for your easyTravel B2B Production (by API) and easyTravel B2B Staging (by API) applications.
+6. Use the following JSON to create the detection rules for your **easyTravel B2B Production (by API)** and **easyTravel B2B Staging (by API)** applications.
 
 Remember to use your production / staging ip addresses.
 
