@@ -112,4 +112,6 @@ Copy the resulting JSON into the Example Value field
 
 5. Select **Execute**, to create your multi step browser test. 
 
+Save the returned Synthetic Id as you may need it later!
+
 :arrow_up: [Back to TOC](/README.md)
