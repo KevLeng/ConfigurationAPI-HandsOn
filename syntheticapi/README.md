@@ -7,7 +7,7 @@ In this lab, we will create a 2 synthetic trasactions - a basic browser test and
 
 In the Dynatrace dashboard, navigate to the Configuration API: **Settings -> Integration -> Dynatrace API > Dynatrace API Explorer**
 
-Select Environment API from the top right drop down menu.
+Select **Environment API** from the top right drop down menu.
 
 
 ## Step-by-step Guide - Create a Simple Sythetic Browser Test
@@ -24,7 +24,8 @@ Select Environment API from the top right drop down menu.
 
 However, you need to change the script to "point" to the external ip address of your easyTravel Production server.
 
-Copy the followin JSON into a txt editor.
+Copy the following JSON into a txt editor.
+
 Modify the JSON (find/replace), the existing IP address (13.210.14.153) to the IP address if your external production server. 
 
 You will find the IP address in 2 locations.
@@ -67,6 +68,7 @@ Copy the resulting JSON into the Example Value field
 
 5. Select **Execute**, to create your browser test.
 
+Save the returned Synthetic Id as you may need it later!
 
 ## Step-by-step Guide - Create a Multi-Step Sythetic Browser Test
 
