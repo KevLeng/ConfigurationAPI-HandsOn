@@ -1,4 +1,4 @@
-# Lab 2: Creating a Applications using the Application API's
+# Lab 1: Creating a Applications using the Application API's
 
 In this lab, we will create a 4 applications using the swagerised application configuration API.
 
