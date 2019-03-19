@@ -272,7 +272,7 @@ Execute again and record the application id returned.
 
 Now we need to create the application detection rules.
 
-1. Select **Web Application detection configuration**
+1. Select **Application detection configuration**
 
 2. Select **POST /applicationdetectionRules**
 
