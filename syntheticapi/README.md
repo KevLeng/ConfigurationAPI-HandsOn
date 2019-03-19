@@ -20,7 +20,7 @@ Select **Environment API** from the top right drop down menu.
 
 3. Select **Try it Out**
 
-4. The following json will create a browser test against the easyTravel homepage from Sydney and Singapore.
+4. The following json will create a browser test against the easyTravel homepage from Sydney, Singapore and Kuala Lumpur.
 
 However, you need to change the script to "point" to the external ip address of your easyTravel Production server.
 
@@ -73,7 +73,7 @@ Save the returned Synthetic Id as you may need it later!
 
 ## Step-by-step Guide - Create a Multi-Step Synthetic Browser Test
 
-6. The following json will create a multi step browser against your easyTravel production environment from Sydney and Singapore.
+6. The following json will create a multi step browser against your easyTravel production environment from Sydney, Singapore and Kuala Lumpur.
 
 Find / Replace **13.210.14.153** with the IP address if your external production server.
 
