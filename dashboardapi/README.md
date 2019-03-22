@@ -23,7 +23,7 @@ Select **Configuration API** from the top right drop down menu.
 ```json
 {
   "dashboardMetadata": {
-    "name": "Executive Overview 2",
+    "name": "Executive Overview",
     "owner": "admin",
     "timeframe": "l_2_HOURS",
     "managementZone": null
